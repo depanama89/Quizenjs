@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  background-color: #fcfcfc;
+}
+.title {
+  text-align: center;
+}
+.test_container,
+.result {
+  display: flex;
+  box-shadow: 0px 0px 5px 0px black;
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 60%;
+  background-color: #ffffff;
+  padding: 24px;
+}
+.result {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.result h2 {
+  color: #404040;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.question {
+  line-height: 30px;
+}
+button {
+  padding: 14px 28px;
+  width: max-content;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #fcfcfc;
+}
+
+.question p {
+  font-weight: 700;
+  font-size: 20px;
+  color: #404040;
+}
+.input {
+  background-color: #f5f2ff;
+  width: 100%;
+}
+.resultValue {
+  text-align: center;
+  font-weight: 600;
+}
+.succed {
+  color: green;
+}
+.failed {
+  color: red;
+}

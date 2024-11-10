@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tutoriel javscript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="test_container" class="test_container">
+      <form id="form__questions">
+        <h1 class="title">Questionnaire</h1>
+        <div class="question">
+          <p>1.est-ce que JAVASCRIPT est-il un language de programmation?</p>
+          <input type="radio" name="q1" id="q1a" value="Oui" />
+          <label for="q1a">Oui</label><br />
+          <input type="radio" name="q1" id="q1b" value="Non" />
+          <label for="q1b">Non</label>
+        </div>
+        <div class="question">
+          <p>2.Qu'est-ce que JavaScript ?</p>
+          <input
+            type="radio"
+            name="q2"
+            id="q2a"
+            value="Un langage de balisage"
+          />
+          <label for="q1a">Un langage de balisage</label><br />
+          <input
+            type="radio"
+            name="q2"
+            id="q2b"
+            value="Un langage de programmation côté client"
+          />
+          <label for="q2b">Un langage de programmation côté client</label><br />
+          <input
+            type="radio"
+            name="q2"
+            id="q2b"
+            value="Un langage de programmation pour les bases de données"
+          />
+          <label for="q2b"
+            >Un langage de programmation pour les bases de données</label
+          ><br />
+          <input
+            type="radio"
+            name="q2"
+            id="q2b"
+            value="Un langage de programmation côté client"
+          />
+          <label for="q2b">Un langage de programmation compiler </label>
+        </div>
+
+        <div class="question">
+          <p>
+            3. Quelle méthode permet de déclarer une variable en JavaScript ?
+          </p>
+          <!-- <div class="input"> -->
+          <input type="radio" name="q3" id="q3a" value="let" />
+          <label for="q3a">let</label><br />
+          <!-- </div> -->
+
+          <input type="radio" name="q3" id="q3b" value="var" />
+          <label for="q3b">var</label><br />
+          <input type="radio" name="q3" id="q3c" value="const" />
+          <label for="q3c">const</label><br />
+          <input
+            type="radio"
+            name="q3"
+            id="q3d"
+            value="Toutes les réponses ci-dessus"
+          />
+          <label for="q3d">Toutes les réponses ci-dessus</label>
+        </div>
+        <div class="question">
+          <p>4.Comment afficher un message dans la console en JavaScript ?</p>
+          <input type="radio" name="q4" id="q4a" value="console.print()" />
+          <label for="q4a">console.print()</label><br />
+          <input type="radio" name="q4" id="q4b" value="log.console()" />
+          <label for="q4b">log.console()</label><br />
+          <input type="radio" name="q4" id="q4c" value="console.log()" />
+          <label for="q4c">console.log()</label><br />
+          <input type="radio" name="q4" id="q4d" value="alert.console()" />
+          <label for="q4d">alert.console()</label>
+        </div>
+        <div class="question">
+          <p>5.Quelle est la différence entre == et === en JavaScript ?</p>
+          <input
+            type="radio"
+            name="q5"
+            id="q5a"
+            value="== compare les valeurs, === compare les valeurs et le type"
+          />
+          <label for="q5a"
+            >== compare les valeurs, === compare les valeurs et le type</label
+          ><br />
+          <input
+            type="radio"
+            name="q5"
+            id="q5b"
+            value="== compare les types, === compare les valeurs"
+          />
+          <label for="q5b">== compare les types, === compare les valeurs</label
+          ><br />
+          <input type="radio" name="q5" id="q5c" value="Ils sont équivalents" />
+          <label for="q5c">Ils sont équivalents</label><br />
+          <input type="radio" name="q5" id="q5d" value="Aucune différence" />
+          <label for="q5d">Aucune différence</label>
+        </div>
+        <div class="question">
+          <p>6. let x = 5; let y = '5'; console.log(x == y);</p>
+          <input type="radio" name="q6" id="q6a" value="true" />
+          <label for="q6a">true</label><br />
+          <input type="radio" name="q6" id="q6b" value="false" />
+          <label for="q6b">false</label><br />
+          <input type="radio" name="q6" id="q6c" value="undefined" />
+          <label for="q6c">undefined</label><br />
+          <input type="radio" name="q6" id="q6d" value="Erreur" />
+          <label for="q6d">Erreur</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="result" class="result">
+      <h2>Merci d'avoir soumis votre Quiz</h2>
+      <p id="resultValue" class="resultValue"></p>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
