@@ -12,7 +12,7 @@ Variables utilisées:
 -const resultp : selection de la balise qui nous permettra d'afficher le resultat
 -const testContainer
 
-- answer : récupère la réponse de l'utilisateur
+- answer : récupère les réponses de l'utilisateur
 - correctAnswer : tableau des réponses correctent pour les questions posent
 - resultp : élément DOM qui affiche si la réponse est correcte ou non
 
