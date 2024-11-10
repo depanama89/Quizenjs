@@ -1,6 +1,6 @@
 Quiz JAVASCRIPT
 
-Objectif de cet exercice est de concevoir un questionnaire interactif en utilisant JavaScript ! , afin de pratique les differentes
+Objectif de cet exercice est de concevoir un questionnaire interactif en utilisant JavaScript ! , afin de pratiquer les differentes
 notions JavaScript par exemple declaration de variables,assignation ,operateur logique ,function et DOM
 
 Ce script gère la logique d'un simple quiz.
