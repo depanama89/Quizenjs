@@ -7,6 +7,7 @@ const form = document.getElementById("form__questions");
 const resultp = document.getElementById("resultValue");
 const result = document.getElementById("result");
 const testContainer = document.querySelector(".test_container");
+const reset = document.querySelector(".reset");
 let score = 0;
 
 // definition de la fonction
@@ -40,4 +41,11 @@ form.addEventListener("submit", function (e) {
     }`;
     resultp.classList.add("succed");
   }
+});
+reset.addEventListener("click", function () {
+  // testContainer.classList.add("active");
+  testContainer.removeAttribute("style");
+  form.querySelectorAll("input").forEach((input) => (input.disabled = true));
+  form.querySelector("button").disabled = true;
+  result.style.display = "none";
 });
